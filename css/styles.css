@@ -6,6 +6,15 @@ header {
     min-height: 1000px;
 }
 
+.tabs .indicator {
+    background-color: blueviolet;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+    background: transparent;
+}
+
 
 /* Mobile Devices */
 

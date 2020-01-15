@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	 <!--Font Awesome-->
-	 <script src="https://use.fontawesome.com/f09ac01b76.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Font Awesome-->
+    <script src="https://use.fontawesome.com/f09ac01b76.js"></script>
     <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-<link rel="stylesheet" href="css/styles.css">
-	<title>SafeJourney</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>SafeJourney</title>
 </head>
+
 <body>
     <header>
         <nav class="nav-wrapper transparent">
@@ -22,62 +24,247 @@
                     <i class="material-icons">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="" class="btn-floating btn-small indigo darken-4 tooltipped" data-tooltip="Instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="btn-floating btn-small indigo darken-4 tooltipped" data-tooltip="Facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="btn-floating btn-small indigo darken-4 tooltipped" data-tooltip="LinkedIn">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="btn-floating btn-small indigo darken-4 tooltipped" data-tooltip="twitter">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
                 </ul>
                 <!-- Mobile Menu -->
                 <ul class="sidenav grey lighten-2" id="mobile-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <section class="container section" id="photo">
+    <section class="container section scrollspy" id="home">
         <div class="row">
             <div class="col s12 l4">
-                <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed">
+                <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed" />
             </div>
             <div class="col s12 l6 offset-l1">
                 <h2 class="indigo-text text-darken-4">Portraits</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a porro officiis voluptatem velit minima reprehenderit ducimus odit omnis cupiditate labore asperiores nesciunt, illo exercitationem vitae itaque ad illum natus.</p>    
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a porro officiis voluptatem velit minima reprehenderit ducimus odit omnis cupiditate labore asperiores nesciunt, illo exercitationem vitae itaque ad illum natus.
+                </p>
             </div>
         </div>
         <div class="row">
             <div class="col s12 l4 push-l7 offset-l1">
-                <img src="img/city.jpg" alt="" class="responsive-img materialboxed">
+                <img src="img/city.jpg" alt="" class="responsive-img materialboxed" />
             </div>
             <div class="col s12 l6 pull-l5">
                 <h2 class="indigo-text text-darken-4 offset-l1">CityScapes</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a porro officiis voluptatem velit minima reprehenderit ducimus odit omnis cupiditate labore asperiores nesciunt, illo exercitationem vitae itaque ad illum natus.</p>    
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a porro officiis voluptatem velit minima reprehenderit ducimus odit omnis cupiditate labore asperiores nesciunt, illo exercitationem vitae itaque ad illum natus.
+                </p>
             </div>
         </div>
         <div class="row">
             <div class="col s12 l4">
-                <img src="img/nature.jpg" alt="" class="responsive-img materialboxed">
+                <img src="img/nature.jpg" alt="" class="responsive-img materialboxed" />
             </div>
             <div class="col s12 l6">
                 <h2 class="indigo-text text-darken-4 offset-l1">Nature</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a porro officiis voluptatem velit minima reprehenderit ducimus odit omnis cupiditate labore asperiores nesciunt, illo exercitationem vitae itaque ad illum natus.</p>    
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a porro officiis voluptatem velit minima reprehenderit ducimus odit omnis cupiditate labore asperiores nesciunt, illo exercitationem vitae itaque ad illum natus.
+                </p>
             </div>
         </div>
     </section>
-	
-	<!-- Jquery -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-    	$(document).ready(function(){
-    		$('.sidenav').sidenav();
-    		$('.modal').modal();
-    		$('.materialboxed').materialbox();
-    	});
-    </script>
+    <!-- Parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/street.jpg" alt="" class="responsive-img" />
+        </div>
+    </div>
 
+    <!-- Services -->
+    <section class="container section scrollspy" id="services">
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <h2 class="indigo-text text-darken-4">Our Services...</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur consectetur adipisicing elit. Ab a porro officiis voluptatem
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur consectetur adipisicing elit. Ab a porro officiis voluptatem
+                </p>
+            </div>
+            <!-- Tabs -->
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#protection" class="indigo-text text-darken-4">Accident Protection</a
+							>
+						</li>
+						<li class="tab col s6">
+							<a href="#reporting" class="indigo-text text-darken-4"
+								>Reporting</a
+							>
+						</li>
+					</ul>
+					<div class="col s12" id="protection">
+						<h3 class="flow-text indigo-text text-darken-4">
+							ACCIDENT PROTECTION
+						</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur consectetur adipisicing
+							elit. Ab a porro officiis voluptatem
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur consectetur adipisicing
+							elit. Ab a porro officiis voluptatem
+						</p>
+					</div>
+					<div class="col s12" id="reporting">
+						<h3 class="flow-text indigo-text text-darken-4">REPORTING</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur consectetur adipisicing
+							elit. Ab a porro officiis voluptatem
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur consectetur adipisicing
+							elit. Ab a porro officiis voluptatem
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Parallax -->
+		<div class="parallax-container">
+			<div class="parallax">
+				<img src="img/stars.jpg" alt="" class="responsive-img" />
+			</div>
+		</div>
+
+		<!-- Contact Form -->
+		<section class="section container  scrollspy" id="contact">
+			<div class="row">
+				<div class="col s12 l5">
+					<h2 class="indigo-text text-darken-4">Get In touch</h2>
+					<p>Lorem ipsum dolor sit amet consectetur consectetur</p>
+					<p>Lorem ipsum dolor sit amet consectetur consectetur</p>
+					<p>Lorem ipsum dolor sit amet consectetur consectetur</p>
+					<p>Lorem ipsum dolor sit amet consectetur consectetur</p>
+					<p>Lorem ipsum dolor sit amet consectetur consectetur</p>
+					<p>Lorem ipsum dolor sit amet consectetur consectetur</p>
+				</div>
+				<div class="col s12 l5 offset-l2">
+					<form action="">
+						<div class="input-field">
+							<i class="material-icons prefix">email</i>
+							<input type="email" id="email" />
+							<label for="email">Your Email</label>
+						</div>
+
+						<div class="input-field">
+							<i class="material-icons prefix">message</i>
+							<textarea id="message" class="materialize-textarea"></textarea>
+							<label for="message">Your Message</label>
+						</div>
+						<div class="input-field">
+							<input type="text" class="datepicker" id="date" />
+							<label for="date">Choose appointment date...</label>
+						</div>
+						<div class="input-field">
+							<h4>Services required...</h4>
+							<p>
+								<label>
+									<input type="checkbox" />
+									<span>Protection</span>
+								</label>
+							</p>
+							<p>
+								<label>
+									<input type="checkbox" />
+									<span>Reporting</span>
+								</label>
+							</p>
+						</div>
+						<div class="input-field center">
+							<button class="btn">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer class="page-footer blue darken-3">
+			<div class="container">
+				<div class="row">
+					<div class="col s12 l6">
+						<h5>About Me</h5>
+						<p>
+							Lorem ipsum dolor sit amet consectetur consectetur adipisicing
+							elit. Ab a porro officiis voluptatem
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur consectetur adipisicing
+							elit. Ab a porro officiis voluptatem
+						</p>
+					</div>
+					<div class="col s12 l4 offset-l2">
+						<h5>Connect</h5>
+						<ul>
+							<li><a href="" class="grey-text text-lighten-3">Facebook</a></li>
+                    <li><a href="" class="grey-text text-lighten-3">Twitter</a></li>
+                    <li><a href="" class="grey-text text-lighten-3">Youtube</a></li>
+                    <li><a href="" class="grey-text text-lighten-3">Instagram</a></li>
+                    <li><a href="" class="grey-text text-lighten-3">LinkeIn</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright blue darken-4">
+            <div class="container center-align">&copy; SafeJourney 2020</div>
+        </div>
+        </footer>
+
+        <!-- Jquery -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".sidenav").sidenav();
+                $(".modal").modal();
+                $(".materialboxed").materialbox();
+                $(".parallax").parallax();
+                $(".tabs").tabs();
+                $(".tooltipped").tooltip();
+                $(".scrollspy").scrollSpy({
+                    scrollOffset: 1000,
+                    throttle: 100
+                });
+                $(".datepicker").datepicker({
+                    disableWeekends: true
+                });
+            });
+        </script>
 </body>
+
 </html>
